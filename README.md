@@ -36,16 +36,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-If `requirements.txt` doesn't exist yet, you can create one:
-```bash
-pip freeze > requirements.txt
-```
-
-Or manually install:
-```bash
-pip install django djangorestframework
-```
-
 ---
 
 ## ⚙️ Run the Server
@@ -125,7 +115,7 @@ tenantproject/
 - Python 3.11+
 - Django 5.x
 - Django REST Framework
-- SQLite (dev only — PostgreSQL required for Task 2)
+- SQLite 
 
 ---
 
